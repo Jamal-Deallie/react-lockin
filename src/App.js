@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import {BrowserRouter, Route, Switch} from'react-router-dom';
+import NavagationBar from './Components/NavagationBar';
+import Home from './Home';
+import Facility from './Facility';
+import PersonalTrainers from './PersonalTrainers';
+import NoMatch from './NoMatch';
+import FooterPage from './Components/FooterPage';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <BrowserRouter>
+        <NavagationBar/>
+          <Switch>
+            <Route exact path="/" component={Home} /> 
+            <Route exact path="/facility" component= {Facility}/>
+            <Route exact path="/personaltrainers" component= {PersonalTrainers}/>
+            <Route component= {NoMatch}/>
+          </Switch>
+        </BrowserRouter>
+        <FooterPage/>
     </div>
   );
 }

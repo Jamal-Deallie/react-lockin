@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+  
+   
+}
+
+.headerbar{
+    background-color:#34445B!important; 
+}
+
+.myNavbar{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navlinks{ 
+    color: #B0D1ED !important; 
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    margin: 10px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.navbarbrand{
+    padding: auto;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+}
+
+.jumboContainer {
+    width: 100%;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    position: relative;
+}
+
+video .after{
+    height: auto;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+video {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: relative;
+}
+
+.header {
+    position: absolute; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgba(176, 209, 237, .8);
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Monoton', cursive;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.jumboBtnContainer{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.joinBtn{
+    background-color: rgba(176, 209, 237, .8) !important;
+    border: 3px solid white !important;
+    color: #34445B !important; 
+    width: 7rem; 
+    font-size: .9rem !important;
+}
+
+
+
+.guestBtn{
+    background-color: rgba(52, 68, 91, .8) !important;
+    border: 3px solid #B0D1ED !important;
+    color: white !important;
+    width: 7rem; 
+    font-size: .9rem !important;
+}
+
+
+
+.acctbtn{
+    background-color:#B0D1ED !important; 
+    color: #34445B !important;
+    font-weight: 700 !important;
+    border: 4px solid white !important;
+}
+
+.carouselCaption{
+    color: white !important;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+
+.card-body{
+    background-color: #34445B !important;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.facilitySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    position: relative; 
+    margin-top: 140px;
+    margin-bottom: 50px;
+
+}
+
+.smHeader { 
+    color: #34445B;
+    text-shadow: 1px 1px 2px #34445B;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 4rem;
+    
+}
+
+.benefits{
+    margin-top: 160px;
+    background-color: #B0D1ED;
+    padding: 40px;
+
+
+   
+}
+.benefitList {
+    color: #34445B;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+ 
+}
+
+.benefitpic{
+  max-height: 450px;
+  margin: 30px;
+
+ 
+}
+
+.priceCard {
+    margin: 50px auto;
+    border-radius: 25px !important;
+}
+
+.priceSection{
+    margin-top: 130px;
+}
+
+.card-header{
+   background-color: #B0D1ED !important; 
+   color: white;
+   font-weight: 700;
+}
+
+footer{
+    background-color: #34445B; 
+    color:  #B0D1ED;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 1px;
+}
+
+i, hr, .social-links {
+    color:  #B0D1ED;  
+}
+
+
+
