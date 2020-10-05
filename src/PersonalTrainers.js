@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
+import './Components/css/style.css';
 
- 
+
+
 class PersonalTrainers extends Component {
     constructor(props) {
         super(props);
@@ -9,14 +11,14 @@ class PersonalTrainers extends Component {
                 {
                     id: 0,
                     name: "Alex",
-                    image: "./assets/images/personaltrainer1.png",
+                    image: "./assets/images/persoanltrainer.png",
                     description: "Personal Trainer-Alex",
                     biography: "Alex is an National Strength and Conditioning Association (NSCA) Personal Trainer. In college Alex played Point Guard for the Georgetown Hoayas. After sustaining an injury, Alex realized this unfortunate event could have been avoided with proper training. It was then he doscovered his passion of personal training. He now strives on motivating others to acheieve their goals or recover from injury with strength training."
                 },
                 {
                     id: 1,
                     name:"Rachel",
-                    image: "./assets/images/personaltrainer2.png",
+                    image: "./src/assets/images/personaltrainer2.png",
                     description: "Personal Trainer-Rachel",
                     biography: "Rachel is an National Academy of Sports Medicine (NASM) Personal Trainer and currently holds a Cross FitCertification Level 2 license. In college she was a long distance runner at UCLA. After obtaining her Bachelors degree in Science in Health & Wellness she has devoted her life to guide others in their quest to a healthy lifestyle."
                 },
@@ -49,11 +51,13 @@ class PersonalTrainers extends Component {
             );
         })
         return (
+            <div>
+            <div className="personaljumbo"><h1 className="smHeader text-center">PERSONAL TRAINERS</h1></div>
             <div className="container">
-                <h1 className="smHeader text-center">PERSONAL TRAINERS</h1>
                 <div className="row">
                     {personaltrainer}
                 </div>
+            </div>
             </div>
 
         );
